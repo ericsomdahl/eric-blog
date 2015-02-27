@@ -2,7 +2,7 @@
  :layout :post
  :tags  ["cryogen", "leiningen"]}
 
-### The github deployment plot tickens
+### The github deployment plot thickens
 In order to deploy my [Cryogen](http://cryogenweb.org) blog onto github.io, I had created 
 two different repos
 
