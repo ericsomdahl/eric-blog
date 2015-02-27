@@ -1,0 +1,2 @@
+# ericsomdahl.github.io
+blog
