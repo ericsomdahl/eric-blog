@@ -1,4 +1,4 @@
-{:title "Longest subsequence"
+{:title "Longest Increasing Subsequence"
  :layout :post
  :tags  ["4clojure"]}
 
