@@ -1,6 +1,6 @@
 {:title "Longest Increasing Subsequence"
  :layout :post
- :tags  ["4clojure"]}
+ :tags  ["4clojure", "clojure"]}
 
 [4clojure](http://www.4clojure.com) is an awesome resource -- I have been having a lot of fun working at these problems.  I am now tackling my first "hard" level problem,
 [Longest Increasing Sub-Seq](http://www.4clojure.com/problem/53).  I have been (mostly) good about not searching for solutions or code so far.
