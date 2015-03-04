@@ -33,7 +33,7 @@
                 {% for nav-page in navbar-pages %}
                 <li
                 {%ifequal page.uri nav-page.uri %} class="active" {% endifequal %}>
-                <a href="{{nav-page.uri}}"><i class="fa {{nav-page.navbar-icon}}"></i>&nbsp;{{nav-page.title}}</a>
+                <a href="{{nav-page.uri}}">{% if nav-page.navbar-icon %}<i class="fa {{nav-page.navbar-icon}}"></i>&nbsp;{% endif %}{{nav-page.title}}</a>
                 </li>
                 {% endfor %}
                 <li><a href="{{rss-uri}}"><i class="fa fa-rss"></i>&nbsp;RSS</a></li>
