@@ -59,6 +59,11 @@ body {
     background-color: #fff;
 }
 
+.navbar-default .navbar-text {
+    color: #fff;
+    font-family: 'Alegreya';
+}
+
 #sidebar {
     margin-left: 15px;
     margin-top: 50px;
@@ -132,8 +137,8 @@ pre, code, .hljs {
 
 @media (min-width: 400px) {
     .navbar-default .navbar-brand {
-        font-size: 36px;
-        padding: 25px 15px;
+        font-size: 32px;
+        padding: 15px 15px;
     }
     #content{
         margin-top: 30px;
@@ -157,3 +162,49 @@ pre, code, .hljs {
         text-align: left;
     }
 }
+
+@font-face {
+  font-family: 'icomoon';
+  src:url('fonts/icomoon.eot?437gqb');
+  src:url('fonts/icomoon.eot?#iefix437gqb') format('embedded-opentype'),
+    url('fonts/icomoon.woff?437gqb') format('woff'),
+    url('fonts/icomoon.ttf?437gqb') format('truetype'),
+    url('fonts/icomoon.svg?437gqb#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-lambda:before {
+  content: "\e600";
+}
+
+.icon-connection:before {
+  content: "\e91b";
+}
+
+.icon-books:before {
+  content: "\e920";
+}
+
+.icon-hour-glass:before {
+  content: "\e979";
+}
+
+.icon-tux:before {
+  content: "\eabe";
+}
+
