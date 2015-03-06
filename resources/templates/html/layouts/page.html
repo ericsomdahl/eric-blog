@@ -3,7 +3,7 @@
 {% block content %}
 <div id="custom-page">
     <div id="page-header">
-        <h2>{{page.title}}</h2>
+        <h2>{% if page.navbar-icon %}<i class="fa {{page.navbar-icon}} fa-fw"></i>&nbsp;{% endif %}{{page.title}}</h2>
     </div>
     {% if page.toc %}{{page.toc|safe}}{% endif %}
     {{page.content|safe}}

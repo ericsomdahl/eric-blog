@@ -3,14 +3,14 @@
 {% block content %}
 <div id="posts">
     <div id="page-header">
-        <h2>Archives</h2>
+        <h2><i class="fa fa-archive fa-fw"></i>&nbsp;Archives</h2>
     </div>
     {% for group in groups %}
         <h4>{{group.group}}</h4>
-        <ul>
+        <ul class="fa-ul">
         {% for post in group.posts %}
         <li>
-            {{post.date|date:"MMM dd"}} - <a href="{{post.uri}}">{{post.title}}</a>
+            <i class="fa-li fa fa-file-text-o"></i>{{post.date|date:"MMM dd"}} - <a href="{{post.uri}}">{{post.title}}</a>
         </li>
         {% endfor %}
         </ul>
